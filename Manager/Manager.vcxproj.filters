@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Bases">
+      <UniqueIdentifier>{3961ceea-3f47-44e2-be74-cdfbd0c01950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bases">
+      <UniqueIdentifier>{ec181726-b39c-4f1e-9509-3771c6bdde46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataBase">
+      <UniqueIdentifier>{b2d385d2-5ade-49a9-8301-4c6f5a0c2a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataBase">
+      <UniqueIdentifier>{a84e58c4-c44e-46e0-95bc-b8585bb91532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Control">
+      <UniqueIdentifier>{09be8e62-8793-49bd-8560-b66c208b9c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dialog">
+      <UniqueIdentifier>{612bc88c-d04e-4b7f-bb36-da7ca0d5c292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Dialog">
+      <UniqueIdentifier>{4c9a8d0b-0fd4-4fcb-bcd4-f6d5d219fa51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Control">
+      <UniqueIdentifier>{4d138fcd-0843-42e6-9656-b24a0e866c63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="FindListCtrl.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMenu.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMFCMenuButton.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDialogEx.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="PatientDirectoryListCtrl.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerData.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyStaticCtrlConnect.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="EasySize.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerPersonData.h">
+      <Filter>头文件\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDlg.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNewListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ADO.h">
+      <Filter>头文件\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerADO.h">
+      <Filter>头文件\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataIDDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FindDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDataBaseInfoDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PatientDirectoryDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEditDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMenu.cpp">
+      <Filter>源文件\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="FindListCtrl.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMFCMenuButton.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDialogEx.cpp">
+      <Filter>源文件\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerData.cpp">
+      <Filter>源文件\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientDirectoryListCtrl.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerPersonData.cpp">
+      <Filter>源文件\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDlg.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ADO.cpp">
+      <Filter>源文件\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerADO.cpp">
+      <Filter>源文件\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DataIDDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FindDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDataBaseInfoDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientDirectoryDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEditDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Manager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Manager.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Manager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
